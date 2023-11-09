@@ -1,20 +1,98 @@
-/* 
-    RESET
-*/
+/*RESET*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* 
-    GENERAL
-*/
+
+/*GENERAL*/
 html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.container {
-    max-width: 1200px;
+.full-container {
+    width: 100%;
+}
+
+.small-container{
+    width: 1000px;
     margin: 0 auto;
+}
+
+.blue-button{
+    color: white;
+    border: none;
+    padding: 7px 15px;
+    background-color: #0061FF;
+}
+
+/* HEADER */
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex; 
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0 15px;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    color: gray;
+}
+
+.header-bottom{
+    background-color: #B4D0E7;
+    height: 650px;
+    margin-bottom: 150px;
+}
+
+.jumbotron{
+    width: 1120px;
+    margin: 0 auto;
+    min-height: 400px;
+    position: relative;
+    top: 120px;
+}
+
+h1{
+    font-size: 70px;
+}
+
+.jumbotron .jumbo-info{
+    display: flex;
+    padding-top: 40px;
+}
+
+.jumbotron .jumbo-info p{
+    line-height: 22px;
+}
+
+.jumbotron img{
+    width: 100%;
+}
+
+.big-info{
+    width: 65%;
+}
+
+.small-info{
+    width: 35%;
+}
+
+#margin-blue-button{
+    margin: 30px 0;
+}
+
+#margin-arrow{
+    padding-top: 40px;
 }
