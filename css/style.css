@@ -27,6 +27,20 @@ html {
     background-color: #0061FF;
 }
 
+.transparent-button{
+    color: black;
+    border: 1px solid black;
+    padding: 7px 15px;
+    background-color: white;
+}
+
+.white-button{
+    color: black;
+    border: none;
+    padding: 7px 15px;
+    background-color: white;
+}
+
 /* HEADER */
 nav{
     display: flex;
@@ -95,4 +109,217 @@ h1{
 
 #margin-arrow{
     padding-top: 40px;
+}
+
+
+/* MAIN */
+main h2{
+    font-size: 40px;
+    margin-bottom:50px
+}
+
+main .cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+main .cards > *{
+    width: 31%;
+    border: 1px solid gray;
+}
+
+main .cards > #card-speciale{
+    width: 100%;
+    margin-top: 30px;
+}
+
+main .cards #small-box-card{
+    text-align: center;
+    padding: 15px;
+}
+
+main .cards .border-bottom{
+    border-bottom: 1px solid gray;
+}
+
+main .cards #big-box-card, .fourth-card-container{
+    padding: 30px;
+}
+
+main .cards #big-box-card #button-card{
+    padding-right: 40px;
+    margin: 30px 0;
+    text-align: center;
+}
+
+main .cards #big-box-card hr{
+    width: 50px;
+}
+
+main .cards #big-box-card #padding-card, 
+#padding-card ul li, 
+.fourth-card-container .big-info > #padding-card{
+   padding: 15px 0;
+}
+
+main .fourth-card-container{
+    display: flex;
+}
+
+main .fourth-card-container .small-info{
+    text-align: right;
+}
+
+main .second-section{
+    display: flex;
+    margin-top: 120px;
+}
+
+main .second-section .big-info img{
+    width: 100%;
+}
+
+main .second-section .small-info{
+    padding: 40px;
+}
+
+main .second-section .small-info h3{
+    line-height: 30px;
+}
+
+main .second-section .small-info p{
+    margin: 20px 0;
+    line-height: 22px;
+}
+
+main .third-section .cards #small-box-card img{
+    width: 100%;
+}
+
+main #borders-none{
+    border: 1px solid white;
+}
+
+main .fourth-section h2{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+main .full-container .lightgray-background{
+    background-color: #F5F5F5;
+    margin-top: 100px;
+}
+
+main .full-container .squares-container{
+    display: flex; 
+    height: calc((100vw / 3));  
+}
+
+main .full-container .left-box,
+main .full-container .mid-box,
+main .full-container .right-box{
+    width: calc(100% / 3);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mini-box{
+    width: calc(100% / 2);
+    height: calc(100% / 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mini-box img{
+    width: 50%;
+    filter: invert();
+}
+
+#lightgreen-color{
+    background-color: #A2D39B;
+}
+
+#magenta-color{
+    background-color: #61082B;
+}
+
+#lightblue-color{
+    background-color: #0093CE;
+}
+
+#lightred-color{
+    background-color: #FF1C1C;
+}
+
+#red-color{
+    background-color: #D5001F;
+}
+
+#indigo-color{
+    background-color: #B4D0E7;
+}
+
+#blue-color{
+    background-color: #0D2481;
+}
+
+#yellow-color{
+    background-color: #FFD830;
+}
+
+.mid-box .mid-box-content{
+    padding: 50px;
+}
+
+.mid-box .mid-box-content img{
+    width: 60%;
+}
+
+.mid-box .mid-box-content div > hr{
+    width: 80px;
+}
+
+.mid-box .mid-box-content > div{
+    padding: 30px 0;
+}
+
+.mid-box .mid-box-content > p{
+   padding-bottom: 35px;
+}
+
+main .full-container .indigo-background{
+    background-color: #B4D0E7;
+    height: 300px;
+}
+
+main .full-container .indigo-background .small-container{
+    display: flex;
+    justify-content: center;
+    padding: 120px 0;
+}
+
+main .full-container .indigo-background .small-container .big-info h2{
+    font-size: 35px;
+    color: #61082B;
+}
+
+main .full-container .indigo-background .small-container .small-info{
+    text-align: right;
+}
+
+main .small-container .QandA{
+    margin: 120px 0;
+}
+
+main .small-container .questions{
+    display: flex;
+    padding: 30px 0;
+}
+
+main .small-container .questions .small-info{
+    text-align: right;
+    padding-right: 20px;
 }
