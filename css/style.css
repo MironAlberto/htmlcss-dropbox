@@ -9,6 +9,7 @@
 /*GENERAL*/
 html {
     font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
 }
 
 .full-container {
@@ -111,6 +112,10 @@ h1{
 
 #margin-arrow{
     padding-top: 40px;
+}
+
+#margin-arrow a{
+    color: black;
 }
 
 
