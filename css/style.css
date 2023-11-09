@@ -150,9 +150,9 @@ main .cards #big-box-card, .fourth-card-container{
 }
 
 main .cards #big-box-card #button-card{
-    padding-right: 40px;
     margin: 30px 0;
     text-align: center;
+    width: 100%;
 }
 
 main .cards #big-box-card hr{
